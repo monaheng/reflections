@@ -1,7 +1,12 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository creates a git metadata that will be able to manage all your enties in the repository. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+the staging area offers a place to temporarily place entries you want to be in the repository, while 
+the working area is the place where your files are finally stored, i.e. the place that gits manages.  
 
 How can you use the staging area to make sure you have one commit per logical
 change?
