@@ -23,3 +23,9 @@ collaborating with others on a project the branches can be made for different ta
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The last copy makes it easier to resolve conflicts should there be any caused by making changes remotely.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating without using Git or Github will be much harder than collaborating with it. 
+Github is especially useful becuase it has added feauters that are just not as apparent when 
+using just Git on a local computer. 
