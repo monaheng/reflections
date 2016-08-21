@@ -5,19 +5,37 @@ Initializing a repository creates a git metadata that will be able to manage all
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-the staging area offers a place to temporarily place entries you want to be in the repository, while 
+the staging area offers a place to temporary place entries you want to be in the repository, while 
 the working area is the place where your files are finally stored, i.e. the place that gits manages.  
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+After adding the file you updated to the staging area you use the git diff --staged command to confirm.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are useful especially if you want specialised features in your code tha deviates slightly from the main code.
+The branches make it easier to manage such changes in your application life cycle.
+
 How do the diagrams help you visualize the branch structure?
+
+The branch diagrams help us to see the development process in detail from different perspectives or job descriptions, 
+these then are the branch structures.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches together is a combined version of the two branch changes, 
+the representation of diagrams enables tracking process flow
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+pros
+Enables a team of programmers to perform different tasks in a project and thereafter the changes can be merged
+together.
+cons
+If git is unable to resolve conflicts in a merge operation, then a manual conflict resolution is required, this can be time consuming
+and confusing especially if your understanding of javascript is limited, but the concept is clear. 
+ 
